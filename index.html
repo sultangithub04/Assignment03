@@ -240,32 +240,94 @@
                 </button> -->
 
             <div class="flex gap-4 items-center justify-center mt-16">
-                <i class="fa-solid fa-arrow-right text-2xl"></i> <h6>Let’s Connect</h6>
+                <i class="fa-solid fa-arrow-right text-2xl"></i>
+                <h6>Let’s Connect</h6>
             </div>
             <h1 class="text-5xl font-bold">Let’s Discuss Next Project</h1>
-            <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+            <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring
+                weathered wood, sleek metal accents.</p>
             <br>
             <!-- form -->
-      <div class="grid grid-cols-2 gap-6">
-        <label class="input input-bordered flex items-center gap-2">
-         
-            <input type="text" class="grow" placeholder="Daisy" />
-          </label>
-          <label class="input input-bordered flex items-center gap-2">
-            Email
-            <input type="text" class="grow" placeholder="daisy@site.com" />
-          </label>
-          <label class="input input-bordered flex items-center gap-2">
-            <input type="text" class="grow" placeholder="Search" />
-            <kbd class="kbd kbd-sm">⌘</kbd>
-            <kbd class="kbd kbd-sm">K</kbd>
-          </label>
-          <label class="input input-bordered flex items-center gap-2">
-            <input type="text" class="grow" placeholder="Search" />
-            <span class="badge badge-info">Optional</span>
-          </label>
-      </div>
+        <div class="px-36">
+            <div class="grid grid-cols-2 sm:grid-cols-1 gap-6 ">
+                <label class="input input-bordered flex items-center gap-2 rounded-full">
+                    <input type="text" class="grow" placeholder="First Name *" />
+                </label>
+                <label class="input input-bordered flex items-center gap-2 rounded-full">
+                    <input type="text" class="grow" placeholder="Last Name *" />
+                </label>
+                <label class="input input-bordered flex items-center gap-2 rounded-full">
+                    <input type="text" class="grow" placeholder="Phone Number *" />
+                </label>
+                <label class="input input-bordered flex items-center gap-2 rounded-full">
+                    <input type="text" class="grow" placeholder="Email Number*" />
+                </label>
+            </div>
+            <textarea placeholder="Write your message here"
+                class="textarea textarea-bordered textarea-lg w-full rounded-2xl mt-6"></textarea>
+                <!-- send mail button -->
 
+                <button class="mt-6 btn btn-block bg-[#ABEF5F] rounded-full text-xl">Send Mail<div
+                    class="badge bg-[#121212]  size-10"><i
+                        class="fa-solid fa-arrow-up rotate-45 text-2xl text-white"></i>
+                </div></button>
+                </div>
+        </div>
+
+        </section>
+        <!-- challenge section -->
+         <br>
+        <section class="text-center space-y-4 container mx-auto mb-20">
+            <hr>
+            <!-- <button class="bg-white px-4 ml-3"><i class="fa-solid fa-arrow-right text-2xl"></i>Let’s Connect
+                </button> -->
+
+            <div class="flex gap-4 items-center justify-center mt-16">
+                <i class="fa-solid fa-arrow-right text-2xl"></i>
+                <h6>Let’s challenge</h6>
+            </div>
+            <h1 class="text-5xl font-bold">Let’s go for challenge Project</h1>
+            <p class="pb-10">We all go through difficult times, and it can be a healthy reaction to feel <br> negative emotions when facing challenges.</p>
+
+  
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
+                    class="w-full" />
+                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+                    class="w-full" />
+                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+                    class="w-full" />
+                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+                    class="w-full" />
+                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
         </section>
     </main>
 
@@ -281,7 +343,8 @@
         </div>
         <aside>
             <p class="text-gray-600">The barn house captivates with its blend of rustic charm and modern sophistication,
-                <br> featuring weathered wood, sleek metal accents.</p>
+                <br> featuring weathered wood, sleek metal accents.
+            </p>
         </aside>
 
         <nav class="grid grid-flow-col gap-16 text-gray-400">
@@ -293,12 +356,12 @@
         </nav>
 
         <div class="navbar-center gap-4">
-  
+
             <a class="btn bg-[#ABEF5F] rounded-full text-xl font-extrabold px-3">Book Consult<div
                     class="badge bg-[#121212]  size-10"><i
                         class="fa-solid fa-arrow-up rotate-45 text-2xl text-white"></i>
                 </div></a>
- 
+
         </div>
     </footer>
 
