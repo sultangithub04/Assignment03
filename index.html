@@ -36,13 +36,12 @@
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
-
-
                     <a class="btn btn-ghost text-3xl font-extrabold">
                         <div class="badge bg-[#ABEF5F]  size-10"><i class="fa-solid fa-arrow-up rotate-45 text-2xl"></i>
                         </div>Rinterio
                     </a>
                 </div>
+                
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
                         <li><a>Home</a></li>
@@ -51,14 +50,15 @@
                         <li><a>Blogs</a></li>
                         <li><a>Contact Us</a></li>
                     </ul>
+    
                 </div>
-
+          
                 <div class="navbar-end gap-4">
-                    <div class="space-x-4 sm:hidden">
+                    <div class="space-x-4 hidden lg:flex">
                         <i class="fa-solid fa-magnifying-glass"></i>
                         <i class="fa-solid fa-cart-shopping"></i>
                     </div>
-                    <a class="btn bg-[#ABEF5F] rounded-full text-xl font-extrabold px-3">Book Consult<div
+                    <a class="btn bg-[#ABEF5F] rounded-full text-xl font-extrabold px-3 hidden lg:flex">Book Consult<div
                             class="badge bg-[#121212]  size-10"><i
                                 class="fa-solid fa-arrow-up rotate-45 text-2xl text-white"></i>
                         </div></a>
@@ -134,17 +134,18 @@
 
 
                 </div>
-                <img src="./assets/Rectangle.png" class=" rounded-lg shadow-2xl" />
+                <img src="./assets/Rectangle.png" class="mx-auto rounded-lg shadow-2xl" />
             </div>
         </div>
         <!--  -->
         <section class="bg-base-200">
-            <div class="text-center   min-h-screen space-y-4 container mx-auto">
-                <button class="bg-white px-4 ml-3"><i class="fa-solid fa-arrow-right text-2xl"></i>How we works</button>
-                <h1 class="text-5xl font-bold">Our Works Process</h1>
+            <div class="text-center  pb-28  space-y-4 container mx-auto">
+                <button class="bg-white px-4 ml-3 rounded-2xl"><i class="fa-solid fa-arrow-right text-2xl"></i><span class="pl-3">How we works</span></button>
+                <br>
+                <h1 class="text-5xl font-bold">Our Works Process</h1> <br>
                 <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring
-                    weathered wood, sleek metal accents.</p>
-                <div class="grid grid-cols-4 gap-4">
+                    weathered wood, sleek metal accents.</p> <br>
+                <div class="grid md:grid-cols-4 gap-4">
                     <div class="card bg-[#E7C1D3] text-black">
                         <div class="card-body">
                             <img class="w-12" src="./assets/concept.png" alt="">
@@ -181,51 +182,56 @@
                 </div>
             </div>
         </section>
-        <!-- new seciton -->
-        <div class="text-center   min-h-screen space-y-4 container mx-auto">
-            <button class="bg-white px-4 ml-3"><i class="fa-solid fa-arrow-right text-2xl"></i>Explore our Latest
-                works</button>
+        <!-- portfoli seciton -->
+        <div class="text-center space-y-4 container mx-auto mt-12">
+            <button class="bg-white items-center"><i class="fa-solid fa-arrow-right text-2xl"></i><span
+                    class="pl-4">Explore our Latest
+                    works</span></button>
             <h1 class="text-5xl font-bold">Our Latest Portfolio</h1>
             <p>The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring
                 weathered wood, sleek metal accents.</p>
             <br>
             <div>
-                <div class="grid md:grid-cols-6 gap-6">
+                <!-- fisrt row -->
+                <div class="grid md:grid-cols-6 gap-4">
                     <div
-                        class=" md:flex lg:h-56 gap-8 items-center text-left md:col-span-4 border-2 border-gray-150 p-5 rounded-xl">
-                        <img src="./assets/img1.png" alt="">
-                        <div>
-                            <h3 class="text-xl font-semibold pb-4">Commercial</h3>
-                            <p>The barn house captivates with its blend of rustic charm and modern. The barn house
-                                captivates with its blend of rustic charm and modern .</p>
-                            <div class="text-xl font-semibold pt-4">
+                        class=" md:flex lg:h-56 md:text-left md:col-span-4 border-2 border-gray-150 p-5 rounded-xl justify-center">
+                        <img class="mx-auto" src="./assets/img1.png" alt="">
+                        <div class="p-4">
+                            <h3 class="text-xl font-semibold">Commercial</h3>
+                            <p>The barn house captivates with its blend of rustic charm and modern sophistication,
+                                featuring weathered wood, sleek metal accents.</p>
+                            <div class="text-xl font-semibold">
                                 View Details <div class="badge bg-[#acef5fdd]  size-10"><i
                                         class="fa-solid fa-arrow-up rotate-45 text-2xl"></i>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <img class="p-5 h-56 rounded-xl border-2 border-gray-150 md:col-span-2" src="./assets/img2.png"
-                        alt="">
+                    <img class="p-5 h-56 rounded-xl border-2 border-gray-150 md:col-span-2 mx-auto"
+                        src="./assets/img2.png" alt="">
                 </div>
                 <br>
-                <div class="grid lg:grid-cols-4 gap-6">
-                    <img class="p-5 h-56 rounded-xl border-2 border-gray-150" src="./assets/img3.png" alt="">
+                <!-- second row -->
+                <div class="grid md:grid-cols-4 gap-4">
+                    <img class="p-5 h-56 rounded-xl border-2 border-gray-150 md:col-span-1 mx-auto"
+                        src="./assets/img3.png" alt="">
                     <div
-                        class=" flex lg:h-56 gap-8 items-center text-left col-span-2 border-2 border-gray-150 p-5 rounded-xl">
-                        <img src="./assets/img4.png" alt="">
-                        <div>
-                            <h3 class="text-xl font-semibold pb-4">Commercial</h3>
-                            <p>The barn house captivates with its blend of rustic charm and modern. The barn house
-                                captivates with its blend of rustic charm and modern .</p>
-                            <div class="text-xl font-semibold pt-4">
+                        class=" md:flex lg:h-56 md:text-left md:col-span-2 border-2 border-gray-150 p-5 rounded-xl justify-center">
+                        <img class="mx-auto" src="./assets/img4.png" alt="">
+                        <div class="p-4">
+                            <h3 class="text-xl font-semibold">Commercial</h3>
+                            <p>The barn house captivates with its blend of rustic charm and modern sophistication,
+                                featuring weathered wood, sleek metal accents.</p>
+                            <div class="text-xl font-semibold">
                                 View Details <div class="badge bg-[#acef5fdd]  size-10"><i
                                         class="fa-solid fa-arrow-up rotate-45 text-2xl"></i>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <img class="p-5 h-56 rounded-xl border-2 border-gray-150" src="./assets/img5.png" alt="">
+                    <img class="p-5 h-56 rounded-xl border-2 border-gray-150 md:col-span-1 mx-auto"
+                        src="./assets/img5.png" alt="">
                 </div>
 
 
@@ -236,9 +242,6 @@
         <!-- form section -->
 
         <section class="text-center   min-h-screen space-y-4 container mx-auto">
-            <!-- <button class="bg-white px-4 ml-3"><i class="fa-solid fa-arrow-right text-2xl"></i>Let’s Connect
-                </button> -->
-
             <div class="flex gap-4 items-center justify-center mt-16">
                 <i class="fa-solid fa-arrow-right text-2xl"></i>
                 <h6>Let’s Connect</h6>
@@ -248,35 +251,35 @@
                 weathered wood, sleek metal accents.</p>
             <br>
             <!-- form -->
-        <div class="px-36">
-            <div class="grid grid-cols-2 sm:grid-cols-1 gap-6 ">
-                <label class="input input-bordered flex items-center gap-2 rounded-full">
-                    <input type="text" class="grow" placeholder="First Name *" />
-                </label>
-                <label class="input input-bordered flex items-center gap-2 rounded-full">
-                    <input type="text" class="grow" placeholder="Last Name *" />
-                </label>
-                <label class="input input-bordered flex items-center gap-2 rounded-full">
-                    <input type="text" class="grow" placeholder="Phone Number *" />
-                </label>
-                <label class="input input-bordered flex items-center gap-2 rounded-full">
-                    <input type="text" class="grow" placeholder="Email Number*" />
-                </label>
-            </div>
-            <textarea placeholder="Write your message here"
-                class="textarea textarea-bordered textarea-lg w-full rounded-2xl mt-6"></textarea>
+            <div class="md:x-36 px-10">
+                <div class="grid md:grid-cols-2 grid-cols-1 gap-6 ">
+                    <label class="input input-bordered flex items-center gap-2 rounded-full">
+                        <input type="text" class="grow" placeholder="First Name *" />
+                    </label>
+                    <label class="input input-bordered flex items-center gap-2 rounded-full">
+                        <input type="text" class="grow" placeholder="Last Name *" />
+                    </label>
+                    <label class="input input-bordered flex items-center gap-2 rounded-full">
+                        <input type="text" class="grow" placeholder="Phone Number *" />
+                    </label>
+                    <label class="input input-bordered flex items-center gap-2 rounded-full">
+                        <input type="text" class="grow" placeholder="Email Number*" />
+                    </label>
+                </div>
+                <textarea placeholder="Write your message here"
+                    class="textarea textarea-bordered textarea-lg w-full rounded-2xl mt-6"></textarea>
                 <!-- send mail button -->
 
                 <button class="mt-6 btn btn-block bg-[#ABEF5F] rounded-full text-xl">Send Mail<div
-                    class="badge bg-[#121212]  size-10"><i
-                        class="fa-solid fa-arrow-up rotate-45 text-2xl text-white"></i>
-                </div></button>
-                </div>
-        </div>
+                        class="badge bg-[#121212]  size-10"><i
+                            class="fa-solid fa-arrow-up rotate-45 text-2xl text-white"></i>
+                    </div></button>
+            </div>
+            </div>
 
         </section>
         <!-- challenge section -->
-         <br>
+        <br>
         <section class="text-center space-y-4 container mx-auto mb-20">
             <hr>
             <!-- <button class="bg-white px-4 ml-3"><i class="fa-solid fa-arrow-right text-2xl"></i>Let’s Connect
@@ -287,51 +290,70 @@
                 <h6>Let’s challenge</h6>
             </div>
             <h1 class="text-5xl font-bold">Let’s go for challenge Project</h1>
-            <p class="pb-10">We all go through difficult times, and it can be a healthy reaction to feel <br> negative emotions when facing challenges.</p>
+            <p class="pb-10">We all go through difficult times, and it can be a healthy reaction to feel <br> negative
+                emotions when facing challenges.</p>
 
-  
-            <div class="carousel w-full">
-                <div id="slide1" class="carousel-item relative w-full">
-                  <img
-                    src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
-                    class="w-full" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide4" class="btn btn-circle">❮</a>
-                    <a href="#slide2" class="btn btn-circle">❯</a>
-                  </div>
+            <div class="relative">
+                <div class="carousel w-full">
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <img src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
+                            class="w-full" />
+                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                            <a href="#slide4" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <img src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+                            class="w-full" />
+                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide3" class="carousel-item relative w-full">
+                        <img src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+                            class="w-full" />
+                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide4" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide4" class="carousel-item relative w-full">
+                        <img src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+                            class="w-full" />
+                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                            <a href="#slide3" class="btn btn-circle">❮</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
                 </div>
-                <div id="slide2" class="carousel-item relative w-full">
-                  <img
-                    src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-                    class="w-full" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide1" class="btn btn-circle">❮</a>
-                    <a href="#slide3" class="btn btn-circle">❯</a>
-                  </div>
+                <!-- box -->
+                <!-- <div class="card bg-base-100 image-full w-60 shadow-xl absolute right-20 bottom-4">
+        <figure>
+            <img src="./assets/img2.png" alt="Shoes" />
+        </figure>
+        <div class="card-body">
+            <h2 class="text-center text-[#ABEF5F]">Oh!</h2>
+            <p class="text-center text-[#ABEF5F]">Get Challenge for we development project?</p>
+            <div class="card-actions justify-end">
+                <div class="navbar-center gap-4">
+
+                    <a class="btn bg-[#ABEF5F] rounded-full text-xl font-extrabold px-3">Join Us<div
+                            class="badge bg-[#121212]  size-10"><i
+                                class="fa-solid fa-arrow-up rotate-45 text-2xl text-white"></i>
+                        </div></a>
+        
                 </div>
-                <div id="slide3" class="carousel-item relative w-full">
-                  <img
-                    src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-                    class="w-full" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide2" class="btn btn-circle">❮</a>
-                    <a href="#slide4" class="btn btn-circle">❯</a>
-                  </div>
-                </div>
-                <div id="slide4" class="carousel-item relative w-full">
-                  <img
-                    src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-                    class="w-full" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide3" class="btn btn-circle">❮</a>
-                    <a href="#slide1" class="btn btn-circle">❯</a>
-                  </div>
-                </div>
-              </div>
+            </div>
+        </div>
+    </div> -->
+            </div>
+
         </section>
     </main>
 
-
+    <!-- footer section -->
     <footer class="footer footer-center bg-gray-950 text-base-content rounded p-10">
         <div class="text-center">
 
@@ -347,7 +369,7 @@
             </p>
         </aside>
 
-        <nav class="grid grid-flow-col gap-16 text-gray-400">
+        <nav class="grid md:grid-flow-col gap-8 md:gap-20   text-gray-400">
             <a class="link link-hover">Home</a>
             <a class="link link-hover">Service</a>
             <a class="link link-hover">Portfolio</a>
